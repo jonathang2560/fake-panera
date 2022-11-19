@@ -3,6 +3,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-repeat: no-repeat;
+  background-size:cover;
+  border: none;
 }
 
 /* Clear fix hack */
@@ -36,27 +39,36 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 10%;
+  height: 1%;
   padding:1.5% 0;
+  background: white;
+  width: 100%;
+
 }
 
 .nav-left{
-  margin-left: 7%;
+  margin-left: 5%;
 }
 .nav-right{
-  display: flex;
-  margin-right: 7%;
+  margin-right: 5%;
+  width: 33%;
+}
+.nav-right a{
+  border-bottom: #35383D solid 1px; 
 }
 
 nav a{
   text-decoration: none;
   color: #35383D;
 }
+.header{
+  width: 100%;
+}
 .order{
   background: #4c753f;
   border-radius: 20px;
   cursor: pointer;
-  padding: 2% 10%;
+  padding: 2% 5%;
 }
 
 nav, .main{
@@ -65,6 +77,26 @@ nav, .main{
 nav{
   background: white;
 }
+.nav-right{
+  display: flex;
+}
+.search-box{
+  display: inline-block;
+  background: #efefef;
+  width: 200px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+
+}
+.search-box input{
+  /* width: 100%; */
+  background: transparent;
+  padding: 10px;
+  outline: none;
+  border: 0;
+}
 .main{
   height: 525px;
 }
@@ -72,7 +104,7 @@ nav{
   display: flex;
   background: rgba(0, 0, 0, .3);
   width: 30%;
-  height: 502px;
+  height: 480px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -98,8 +130,117 @@ nav{
   justify-content: center;
   margin-bottom: 10%;
 }
+
 .main-buttons button{
   background: #4C753F;
   color: white;
   padding: 1% 3%;
+}
+
+.food-option{
+  display:flex;
+  border-radius: 10px;
+  height: 150px;
+  width: 35%;
+  margin-right: 15px;
+  padding-top: 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: black;
+}
+.food-option section{
+  display: flex;
+  justify-content: start;
+  color: white;
+  margin-left: 2%;
+  font-size: 14px;
+}
+.food-option span{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #4C753F;
+  color: white;
+  font-size: 15px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.love{
+  margin-left: 5%;
+}
+.love h2{
+  display: flex;
+  width: 100%;
+  height: 15px;
+  margin: 2% 0;
+}
+.food-row{
+  display: flex;
+}
+.soup{
+  background-image: linear-gradient(transparent,rgba(0,0,0,1)),url(/assets/soup.jpg);
+}
+.burger{
+  background-image: linear-gradient(transparent,rgba(0,0,0,1)),url(/assets/salad.jpg);
+
+}
+.salad{
+  background-image: linear-gradient(transparent,rgba(0,0,0,1)),url(/assets/burger.jpg);
+
+}
+.mc{
+  background-image: linear-gradient(transparent,rgba(0,0,0,1)),url(/assets/mac&cheese.jpg);
+}
+
+
+.black{
+  background-color: black;
+  height: 1000px;
+}
+.nav-btn{
+  display: flex;
+  border-radius: 50%;
+  padding: .5% .5%;
+  position: static;
+  background: transparent;
+  height: 30px;
+  margin: 5% 0;
+  color: #4C753F;
+  border: #4c753f solid 2px;
+}
+
+.ads span{
+  font-size: 10px;
+}
+.ads h3{
+  font-size: 25px;
+}
+.ads div{
+  display: flex;
+  background: rgba(0, 0, 0, .3);
+  width: 30%;
+  height: 480px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ads span,p {
+  color: white;
+  width: 60%;
+}
+
+.ads button{
+  width: 60%;
+  padding: 5% 10%;
+  color: #4C753F;
+  background: white;
+  border-radius: 50px;
+  font-size: 20px;
+}
+.bg1{
+  background-image: url(/assets/exlusivebg.jpg)!important;
+  height: 500px;
 }
