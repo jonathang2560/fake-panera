@@ -7,6 +7,9 @@
   background-size:cover;
   border: none;
 }
+button{
+  cursor: pointer;
+}
 
 /* Clear fix hack */
 .clearfix:after {
@@ -41,7 +44,7 @@ nav{
   justify-content: space-between;
   height: 1%;
   padding:1.5% 0;
-  background: white;
+  background: #FFFFFF;
   width: 100%;
 
 }
@@ -49,9 +52,13 @@ nav{
 .nav-left{
   margin-left: 5%;
 }
+.nav-left a{
+  justify-content: space-around;
+}
 .nav-right{
   margin-right: 5%;
   width: 33%;
+  justify-content: space-between;
 }
 .nav-right a{
   border-bottom: #35383D solid 1px; 
@@ -79,6 +86,7 @@ nav{
 }
 .nav-right{
   display: flex;
+  align-items: center;
 }
 .search-box{
   display: inline-block;
@@ -122,13 +130,13 @@ nav{
   font-size: 20px;
 }
 .yp2-img{
-  margin-bottom: 30%;
+  /* margin-bottom: 30%; */
 }
 .main-buttons{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10%;
+
 }
 
 .main-buttons button{
@@ -218,12 +226,12 @@ nav{
 .ads h3{
   font-size: 25px;
 }
-.ads div{
+
+/* .ads div{
   display: flex;
   background: rgba(0, 0, 0, .3);
-  width: 30%;
   height: 480px;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
 }
@@ -239,8 +247,72 @@ nav{
   background: white;
   border-radius: 50px;
   font-size: 20px;
-}
+} */
+
 .bg1{
   background-image: url(/assets/exlusivebg.jpg)!important;
   height: 500px;
 }
+.ads-sec{
+  display: flex;
+  background: rgba(0, 0, 0, .3);
+  width: 30%;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.adstext {
+  color: white;
+  width: 60%;
+}
+.ads-order{
+  width: 60%;
+  padding: 5% 10%;
+  color: #4C753F;
+  background: white;
+  border-radius: 50px;
+  font-size: 20px;
+}
+.bg2{
+  background-image: url(/assets/bg2.jpg);
+}
+.bg3{
+  background-image: url(/assets/bg3.jpg);
+}
+.bg4{
+  background-image: url(/assets/bg4.jpg);
+}
+.bg5{
+  background-image: url(/assets/bg5.jpg);
+}
+.bg6{
+  background-image: url(/assets/bg6.jpg);
+}
+.bg7{
+  background-image: url(/assets/bg7.jpg);
+}
+.stuff{
+  display: flex;
+  width: 33%;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.stuff div{
+  width: 30%;
+}
+.stuff h3{
+  font-size: 25px;
+  color: #35383D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stuff p{
+  color: #6F6F74;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
