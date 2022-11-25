@@ -46,7 +46,6 @@ nav{
   padding:1.5% 0;
   background: #FFFFFF;
   width: 100%;
-
 }
 
 .nav-left{
@@ -70,6 +69,7 @@ nav a{
 }
 .header{
   width: 100%;
+  position: relative;
 }
 .order{
   background: #4c753f;
@@ -178,6 +178,8 @@ nav{
 }
 .love{
   margin-left: 5%;
+  padding-bottom: 2%;
+  margin-bottom: 1%;
 }
 .love h2{
   display: flex;
@@ -298,9 +300,10 @@ nav{
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  margin: 5% 0;
 }
 .stuff div{
-  width: 30%;
+  width: 25%;
 }
 .stuff h3{
   font-size: 25px;
@@ -314,5 +317,45 @@ nav{
   display: flex;
   align-items: center;
   justify-content: center;  
+  text-align: center;
 }
+
+.stuff img{
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-top{
+  display: flex;
+  height: 500px;
+  justify-content: space-around;
+  width: 80%;
+  margin-left: 3%;
+  padding-top: 1%;
+  border-bottom: 2px solid darkgreen;
+}
+.footer-top a{
+  display: flex;
+}
+.footer-left a{
+  height:50px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.footer-center a ,.footer-right a{
+  height: 30px;
+  text-decoration: none;
+}
+.footer-left a,.footer-center a,.footer-right a{
+  margin-bottom: 15%;
+  color: #F4FFFF;
+}
+.footer-bg{
+  background-color: #4C753F;
+}
+
 
