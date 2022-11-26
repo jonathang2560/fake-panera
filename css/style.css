@@ -129,8 +129,9 @@ nav{
   border-radius: 50px;
   font-size: 20px;
 }
-.yp2-img{
-  /* margin-bottom: 30%; */
+.yp2-img img{
+height: 250px;
+width: 300px;
 }
 .main-buttons{
   display: flex;
@@ -330,7 +331,7 @@ nav{
 }
 .footer-top{
   display: flex;
-  height: 500px;
+  height: 400px;
   justify-content: space-around;
   width: 80%;
   margin-left: 3%;
@@ -351,11 +352,46 @@ nav{
   text-decoration: none;
 }
 .footer-left a,.footer-center a,.footer-right a{
-  margin-bottom: 15%;
+  margin-bottom: 10%;
   color: #F4FFFF;
 }
 .footer-bg{
   background-color: #4C753F;
 }
 
-
+.footer-bottom{
+  display: flex;
+  font-size: 15px;
+  color: #FFFFFF;
+  background: #4c753f;
+  justify-content: space-between;
+}
+.footer-bottom div{
+  margin: 10%;
+}
+.footer-bottom-left,.footer-bottom-right{
+  margin: 5% 0;
+}
+.footer-bottom a{
+  color: #FFFFFF;
+}
+.copyright{
+width: 100%;
+background-color: #4C753F;
+color: #FFFFFF;
+padding-left: 10%;
+padding-bottom: 5%;
+}
+.footer-bottom-left p,.footer-bottom-right p{
+  margin-bottom: 50px;
+}
+.footer-bottom-left a{
+  text-decoration: none;
+  font-size: 30px;
+}
+.main h3{
+  font-size: 40px;
+}
+.copyright a{
+  color: #FFFFFF;
+}
