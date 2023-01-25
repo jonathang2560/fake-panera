@@ -117,6 +117,14 @@ nav{
   justify-content: center;
   flex-direction: column;
 }
+.yp3{
+  display: flex;
+  width: 30%;
+  height: 480px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .yp2text {
   color: white;
   width: 60%;
